@@ -1,9 +1,25 @@
 ---
 title: Menu principal
 items:
-- title: Accueil
-  target: ''
-  kind: blank
+- title: Formats
+  target: "/formats/"
+  kind: page
   new_tab: false
   children: []
+  path: "/projects"
+  file: content/fr/projects/_index.html
+- title: Événements
+  target: "/evenements/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/events"
+  file: content/fr/events/_index.html
+- title: Ressources
+  target: "/ressources/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
 
